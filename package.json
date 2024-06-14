@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:prod": "ng build --configuration production --base-href =/gbr_shop/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:gbr-shop": "node dist/gbr-shop/server/server.mjs"
